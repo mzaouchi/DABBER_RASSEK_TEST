@@ -12,13 +12,13 @@ function CardAllPost({el,userPost}){
         <div>
             
                 <div className="project-card">
-                    <div className='des-project-card'>
+                    {/* <div className='des-project-card'>
                     <   img src={userPost.pic} alt='' className='imgP-project-card'/>
                         <div style={{marginLeft:'10px'}}>
                         <h2>{userPost.name}</h2>
                         <h4>{userPost.role}&nbsp;{userPost.profession}</h4>
                         </div>
-                    </div>
+                    </div> */}
                   
                   
                   <h3>{el.title}</h3>
